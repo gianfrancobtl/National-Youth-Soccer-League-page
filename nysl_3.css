@@ -1,0 +1,548 @@
+/*General CSS*/
+
+/*Diseño general de la página*/
+body {
+    background-color: azure;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    background: url(design1_image1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+/* Características del nav */
+
+#navigation {
+    display: block;
+    position: absolute;
+    z-index: 100;
+    margin-left: 140px;
+}
+
+.navhome {
+    color: black;
+    font-family: inherit;
+    font-size: 20px;
+    background-color: #A7FD40;
+    border: 2px black solid;
+    text-decoration-color: #A7FD40;
+    box-shadow: 2px 3px 0px 1px rgba(0, 0, 0, 0.75);
+}
+
+.navhome:hover {
+    background-color: chartreuse;
+}
+
+.navabout {
+    color: black;
+    font-family: inherit;
+    font-size: 20px;
+    background-color: #A7FD40;
+    border: 2px black solid;
+    text-decoration-color: #A7FD40;
+    box-shadow: 2px 3px 0px 1px rgba(0, 0, 0, 0.75);
+}
+
+.navabout:hover {
+    background-color: chartreuse;
+}
+
+.navcontact {
+    color: black;
+    font-family: inherit;
+    font-size: 20px;
+    background-color: #A7FD40;
+    border: 2px black solid;
+    text-decoration-color: #A7FD40;
+    box-shadow: 2px 3px 0px 1px rgba(0, 0, 0, 0.75);
+}
+
+.navcontact:hover {
+    background-color: chartreuse;
+}
+
+.navrules {
+    color: black;
+    font-family: inherit;
+    font-size: 20px;
+    background-color: #A7FD40;
+    border: 2px black solid;
+    text-decoration-color: #A7FD40;
+    box-shadow: 2px 3px 0px 1px rgba(0, 0, 0, 0.75);
+}
+
+.navrules:hover {
+    background-color: chartreuse;
+}
+
+.navinfo {
+    color: black;
+    font-family: inherit;
+    font-size: 20px;
+    background-color: #A7FD40;
+    border: 2px black solid;
+    text-decoration-color: #A7FD40;
+    box-shadow: 2px 3px 0px 1px rgba(0, 0, 0, 0.75);
+}
+
+.navinfo:hover {
+    background-color: chartreuse;
+}
+
+.navregistration {
+    color: black;
+    font-family: inherit;
+    font-size: 20px;
+    background-color: #A7FD40;
+    border: 2px black solid;
+    text-decoration-color: #A7FD40;
+    box-shadow: 2px 3px 0px 1px rgba(0, 0, 0, 0.75);
+}
+
+.navregistration:hover {
+    background-color: chartreuse;
+}
+
+/*Título Principal*/
+.principal {
+    position: absolute;
+    font-size: 30px;
+    font-family: fantasy;
+    font-style: normal;
+    color: whitesmoke;
+    background-color: #043949;
+    border: 5px solid #A7FD40;
+    width: 60%;
+    top: 3px;
+    text-align: center;
+}
+
+/*Disño del logo*/
+.nysllogo {
+    position: absolute;
+    display: block;
+    width: 15%;
+    height: 200px;
+    width: 200px;
+    margin-left: 560px;
+    margin-top: 60px;
+}
+
+/*Imagen atrás del título principal*/
+
+.backgroundimage2 {
+    width: 65%;
+    height: 65%;
+    margin-top: 15px;
+    border-radius: 20px 20px;
+}
+
+/*Características generales del nav*/
+
+.secondtitle {
+    position: relative;
+    display: block;
+    font-size: 17px;
+    color: white;
+    background-color: #043949;
+    border: 3px solid #A7FD40;
+    text-align-last: center;
+    border-radius: 20px 20px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.footer {
+    font-family: inherit;
+    height: 40px;
+    background-color: #003b4eb3;
+    border: 2px solid #A7FD40;
+    border-radius: 20px 20px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+/*HOME*/
+
+/*Título específico*/
+
+.aside1 {
+    position: relative;
+    display: inline;
+    width: 20%;
+}
+
+/*Características del section*/
+.upcomingevents {
+    padding-top: 15px;
+    font-family: inherit;
+    font-size: 19px;
+    position: relative;
+    display: block;
+    width: 80%;
+    margin-left: 15px;
+}
+
+.soccer1 {
+    position: absolute;
+    height: 320px;
+    width: 230px;
+    margin: 25px 0px 0px 550px;
+    border: 1px solid #043949;
+    border-radius: 50px 20px;
+}
+
+.soccer1:hover {
+    transition: all .5s ease-in-out;
+    filter: opacity(.5);
+}
+
+.upcomingevents p {
+    margin-left: 20px;
+}
+
+/*Contenedor de section e imagen*/
+.contenedor1 {
+    height: 380px;
+    background-color: #a7fd40b3;
+    border: 2px solid #043949;
+    padding: 10px;
+    border-radius: 50px 20px;
+}
+
+.calendar {
+    height: 25px;
+    width: 25px;
+    position: relative;
+    display: inline;
+}
+
+.football {
+    height: 25px;
+    width: 25px;
+    position: relative;
+    display: inline;
+}
+
+/*ABOUT*/
+
+.soccer2 {
+    position: relative;
+    display: block;
+    height: 260px;
+    width: 200px;
+    float: right;
+    border: 1px solid #043949;
+    border-radius: 20px 50px;
+    margin-top: 80px;
+}
+
+.soccer2:hover {
+    transition: all .5s ease-in-out;
+    filter: opacity(.5);
+}
+
+.aside2 {
+    position: relative;
+    display: inline;
+    width: 20%;
+}
+
+/*Características del section*/
+.aboutnysl {
+    position: relative;
+    display: block;
+    font-family: inherit;
+    font-size: 16px;
+    width: 70%;
+    height: 155px;
+    margin-left: 15px;
+    margin-top: 10px;
+    text-align: justify;
+}
+
+.aboutnysl p {
+    margin-left: 20px;
+}
+
+/*Contenedor de section e imagen*/
+.contenedor2 {
+    height: 435px;
+    background-color: #a7fd40b3;
+    border: 2px solid #043949;
+    padding: 10px;
+    border-radius: 50px 20px;
+}
+
+/*CONTACT*/
+
+.soccer3 {
+    position: relative;
+    display: block;
+    height: 260px;
+    width: 200px;
+    float: right;
+    border: 1px solid #043949;
+    border-radius: 50px 20px;
+}
+
+.soccer3:hover {
+    transition: all .5s ease-in-out;
+    filter: opacity(.5);
+}
+
+.aside3 {
+    position: relative;
+    display: inline;
+    width: 20%;
+}
+
+/*Características del section*/
+.contactimg {
+    height: 100px;
+    width: 100px;
+}
+
+.contact {
+    font-family: inherit;
+    font-size: 20px;
+    position: absolute;
+    display: block;
+    width: 40%;
+    margin-top: 40px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+/*Contenedor de section e imagen*/
+.contenedor3 {
+    height: 260px;
+    background-color: #a7fd40b3;
+    border: 2px solid #043949;
+    padding: 10px;
+    border-radius: 50px 20px;
+}
+
+
+/*RULES*/
+
+.rules {
+    height: 3560px;
+    background-color: #a7fd40b3;
+    border: 2px solid #043949;
+    padding: 10px;
+    border-radius: 50px 20px;
+    font-family: inherit;
+    font-size: 18px;
+    position: relative;
+    display: block;
+    text-align: justify;
+}
+
+.substitutions {
+    margin-left: 60px;
+}
+
+.flag {
+    height: 25px;
+    width: 25px;
+    position: relative;
+    display: inline;
+}
+
+
+/*GAME INFO*/
+
+.gameinfo {
+    height: 1900px;
+    background-color: #a7fd40b3;
+    border: 2px solid #043949;
+    padding: 10px;
+    border-radius: 50px 20px;
+    font-family: inherit;
+    font-size: 16px;
+    position: relative;
+    display: block;
+}
+
+.subheader {
+    padding-top: 15px;
+    width: 100%;
+    text-align: center;
+}
+
+/* CARACTERÍSTICAS DE LAS TABLAS */
+.tablesept {
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    margin-left: 10%;
+    width: 80%;
+}
+
+.tableoct {
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin-bottom: 50px;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.tableloc {
+    border-collapse: inherit;
+    border-spacing: 0;
+    margin-left: 10%;
+    margin-bottom: 50px;
+    width: 80%;
+}
+
+.iframe {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.table,
+th,
+td {
+    padding: 5px 10px;
+    border-bottom: 1px solid;
+}
+
+thead {
+    font-size: 20px;
+}
+
+/* Características especiales para la fecha*/
+.date {
+    text-align: center;
+    border-right: 1px solid;
+}
+
+/* Características especiales a los párrafos*/
+
+.additional {
+    width: 80%;
+    margin-left: 10%;
+}
+
+.phone {
+    position: absolute;
+    width: 30%;
+}
+
+.email {
+    padding-top: 10px;
+    float: right;
+}
+
+/*Icons*/
+
+.ball {
+    position: relative;
+    display: block;
+    height: 80px;
+    width: 80px;
+    margin-left: 45.1%;
+    margin-right: 45.1%;
+}
+
+.placeholder {
+    height: 25px;
+    width: 25px;
+}
+
+.phoneimg {
+    height: 25px;
+    width: 25px;
+}
+
+.bulletpoint {
+    height: 25px;
+    width: 25px;
+}
+
+/*REGISTRATION FORM*/
+.registrationform {
+    height: 960px;
+    background-color: #a7fd40b3;
+    border: 2px solid #043949;
+    padding: 20px;
+    border-radius: 50px 20px;
+    font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.registrationform_submit {
+    background-color: ;
+    text-align: center;
+}
+
+/*Características especiales de los fieldset*/
+
+.grade {
+    width: 96%
+}
+
+.jerseysize_fs {
+    margin-left: px;
+    width: 24%;
+    position: absolute;
+}
+
+.shortssize_fs {
+    width: 45%;
+    margin-left: 52%;
+}
+
+/*Características especiales de los input*/
+
+.form,
+input {
+    border-radius: 5px;
+}
+
+.firstplayernameinput {
+    width: 34%;
+}
+
+.lastnameinput {
+    width: 35%;
+}
+
+.streetaddressinput {
+    width: 85%;
+}
+
+.cityinput {
+    width: 42%;
+}
+
+.zipcodeinput {
+    width: 42%;
+}
+
+.birthinput {
+    width: 37.5%;
+}
+
+.guardianinput {
+    width: 83%;
+}
+
+.contactphoneinput {
+    width: 30.5%;
+}
+
+.contactemailinput {
+    width: 40%;
+}
+
+.sendinput {
+    font-size: 20px;
+}
+
+/* Final del CSS */
